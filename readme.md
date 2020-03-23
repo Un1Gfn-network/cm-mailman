@@ -1,6 +1,13 @@
 [Original post](https://blog.jan-ahrens.eu/2014/06/17/heroku-with-c.html)  
 [Original repo](https://github.com/JanAhrens/ipconfig-http-server)
 
+Visit [heroku app](https://cm-mailman.herokuapp.com/) in browser, or 
+```
+curl -x "socks5h://127.0.0.1:1080" http://un1gfn.herokuapp.com/
+```
+
+<details><summary>(Optional) Deploy to Heroku Git directly</summary>
+
 ```
 $ g remote add heroku https://git.heroku.com/cybermusketeers.git
 ```
@@ -65,6 +72,4 @@ To https://git.heroku.com/cybermusketeers.git
 Branch 'master' set up to track remote branch 'master' from 'heroku'.
 ```
 
-```
-curl -x "socks5h://127.0.0.1:1080" http://un1gfn.herokuapp.com/
-```
+</details>
